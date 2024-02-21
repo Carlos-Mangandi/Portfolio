@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+#tsparticles {
+  position: absolute;
+}
+
+#root {
+  padding: 30px 10px;
+  @apply bg-lightGradient dark:bg-darkGradient text-slate-800 dark:text-gray-100
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Color al menu */
+.active {
+  color: #fff;
+  font-weight: 500;
+  transition: all .5s;
+  @apply bg-indigo-400 dark:bg-emerald-500
+}
+
+@media (min-width:1024px) {
+  #root {
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    gap:30px;
+    min-height: 100vh;
+  }
+
+  .header {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    justify-self: center;
+    position: relative;
+  }
+
+  .infoCard {
+    grid-column: 1;
+    grid-row: span 2;
+    align-self: center;
+    justify-self: end;
+  }
+
+  .main {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    align-self: start;
+    overflow: auto;
+  }
+
+  .none {
+    display: none;
+  }
+}
