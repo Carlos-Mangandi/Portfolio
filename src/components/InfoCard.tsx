@@ -29,7 +29,7 @@ function InfoCard() {
         <a
           href="https://linkedin.com/in/carlos-mangandí-34a839295"
           target="__blank"
-          aria-label="My Linkdn"
+          aria-label="My LinkedIn"
           className="cursor-pointer w-10 h-10 grid place-content-center bg-indigo-400 hover:bg-indigo-500 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white rounded-xl transition-colors duration-300"
         >
           <AiFillLinkedin />

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { DarkModeContext } from "../contexts/DarkModeContext";
 
