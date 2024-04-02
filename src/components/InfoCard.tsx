@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
-import avatar from "../assets/avatar.webp"
+// import avatar from "../assets/avatar.webp"
 import { motion } from "framer-motion";
 function InfoCard() {
 
@@ -11,7 +11,7 @@ function InfoCard() {
       className="infoCard relative mt-32 lg:mt-0 z-10 w-full lg:max-w-md bg-indigo-50 dark:bg-gray-950 transition-colors duration-300  shadow-lg shadow-black/20 rounded-2xl flex flex-col items-center pt-36 sm:px-8 gap-2"
     >
       <figure className="absolute w-56 h-56   -top-28 overflow-hidden ">
-        <img className="w-full h-full scale-125" src={avatar} alt="Avatar"/>
+        <img className="w-full h-full scale-125" src="https://firebasestorage.googleapis.com/v0/b/libreria-34461.appspot.com/o/avatar.webp?alt=media&token=45ec78fd-a86d-407e-9867-d6dc0172e7e8" alt="Avatar"/>
       </figure>
       <h1 className="text-3xl font-medium text-center">
        Carlos Elías Mangandí Escobar
