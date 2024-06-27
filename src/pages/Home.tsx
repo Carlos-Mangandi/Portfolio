@@ -45,9 +45,6 @@ function Home() {
               <li className="flex gap-3">
                 <p>C#</p>
               </li>
-              <li className="flex gap-3">
-                <p>Java</p>
-              </li>
             </ul>
           </motion.article>
           <motion.article
@@ -93,9 +90,6 @@ function Home() {
               <li className="flex gap-3">
                 <p>MySQL</p>
               </li>
-              <li className="flex gap-3">
-                <p>PostgresSQL</p>
-              </li>
             </ul>
           </motion.article>
           <motion.article
@@ -116,9 +110,6 @@ function Home() {
               </li>
               <li className="p-2 bg-gray-500 rounded-xl text-slate-100">
                 <p>VScode</p>
-              </li>
-              <li className="p-2 bg-gray-500 rounded-xl text-slate-100">
-                <p>NetBeans</p>
               </li>
               <li className="p-2 bg-gray-500 rounded-xl text-slate-100">
                 <p>Node JS</p>
